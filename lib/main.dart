@@ -10,8 +10,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         title: 'Calculator App',
         debugShowCheckedModeBanner: false,
-        theme: ThemeData(primarySwatch: Colors.blue),
-        home: MyHomePage(title: 'My Calculator'));
+        theme: ThemeData(primarySwatch: Colors.deepPurple),
+        home: MyHomePage(title: 'My Calculator App'));
   }
 }
 
@@ -147,7 +147,7 @@ if(buttonText == "CLEAR"){
                 ),
                 new Row(children: [
                   buildButton("CLEAR"),
-                  buildButton("="),
+                  buildButton("=",),
                 ])
               ],
             )
